@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Memory Game</h1>
+      <p class="text-center">Game is over when you make 3 mistake.</p>
+      <div class="wrapper">
+        <div class="imgContainer" data-img="cake">
+          <img class="front" src="img/cake.jpg" alt="cake" />
+          <div class="back" style="background: gray"></div>
+        </div>
+        <div class="imgContainer" data-img="choco">
+          <img class="front" src="img/choco-top.jpg" alt="choco top" />
+          <div class="back" style="background: gray"></div>
+        </div>
+        <div class="imgContainer" data-img="donuts">
+          <img class="front" src="img/donuts.jpg" alt="donuts" />
+          <div class="back" style="background: gray"></div>
+        </div>
+        <div class="imgContainer" data-img="cake">
+          <img class="front" src="img/cake.jpg" alt="cake" />
+          <div class="back" style="background: gray"></div>
+        </div>
+        <div class="imgContainer" data-img="choco">
+          <img class="front" src="img/choco-top.jpg" alt="choco top" />
+          <div class="back" style="background: gray"></div>
+        </div>
+        <div class="imgContainer" data-img="donuts">
+          <img class="front" src="img/donuts.jpg" alt="donuts" />
+          <div class="back" style="background: gray"></div>
+        </div>
+      </div>
+      <p class="text-center">Score: <span id="score">0</span></p>
+      <p class="text-center">Mistake: <span id="mistake">0</span></p>      
+    </div>
+      <div id="overlay">
+        <div id="content">
+          <h1>Game Over!</h1>
+          <button id="restart">Restart</button>
+        </div>
+      </div>
+      
+   <script src="script.js"></script> 
+  </body>
+</html>
